@@ -1,0 +1,18 @@
+<ag-grid-angular
+#agGrid
+id="my-grid"
+style="width: 500px; height:500px;"
+class="ag-theme-balham"
+[rowData]="rowData"
+[columnDefs]="columnDefs"
+[defaultColDef]="defaultColDef"
+[enableRtl]="true"
+[localeText]="localeText"
+[pagination]="true"
+[frameworkComponents]="frameworkComponents"
+[paginationAutoPageSize]="true"
+[editType]="editType"
+(gridReady)="onGridReady($event)"
+>
+
+</ag-grid-angular>
